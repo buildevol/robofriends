@@ -3,7 +3,7 @@ import Card from "./Card";
 
 class CardList extends React.Component {
   render() {
-    if (true) {
+    if (false) {
       throw new Error("Hello");
     }
     const cardArray = this.props.robots.map((user, index) => {
